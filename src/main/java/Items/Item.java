@@ -2,7 +2,7 @@ package Items;
 
 import Interfaces.ISell;
 
-public abstract class Item implements ISell {
+public class Item implements ISell {
 
     private String description;
     private double cost;
@@ -12,6 +12,10 @@ public abstract class Item implements ISell {
         this.description = description;
         this.cost = cost;
         this.sell = sell;
+    }
+
+    public String getDescription() {
+        return description;
     }
 
     public double getCostPrice() {

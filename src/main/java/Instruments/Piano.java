@@ -20,3 +20,4 @@ public class Piano extends Instrument {
         return keyColor;
     }
 }
+
